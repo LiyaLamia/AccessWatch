@@ -1,0 +1,64 @@
+{
+  "summary": {
+    "forecast_type": "direct_week_ahead_missing_modality",
+    "week_aheads": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "algorithms": [
+      "linear_hierarchical",
+      "lightgbm_hierarchical",
+      "catboost_hierarchical",
+      "gru_hierarchical",
+      "tcn_hierarchical"
+    ],
+    "split_meta": {
+      "n_unique_weeks": 104,
+      "train_week_start_min": "2023-01-02",
+      "train_week_start_max": "2024-06-24",
+      "valid_week_start_min": "2024-07-01",
+      "valid_week_start_max": "2024-09-23",
+      "test_week_start_min": "2024-09-30",
+      "test_week_start_max": "2024-12-23",
+      "n_train_weeks": 78,
+      "n_valid_weeks": 13,
+      "n_test_weeks": 13
+    },
+    "feature_counts": {
+      "model1": 67,
+      "model2": 77
+    },
+    "missing_configs": [
+      "full",
+      "drop_ntl",
+      "drop_firms",
+      "drop_ntl_firms",
+      "drop_unosat"
+    ]
+  },
+  "horizons": {
+    "week_plus_1": {
+      "results_dir": "/Users/lamiasalsabil/Documents/Hackathon/data/outputs/direct_week_ahead_missing_ablation/week_plus_1",
+      "json_results": "/Users/lamiasalsabil/Documents/Hackathon/data/outputs/direct_week_ahead_missing_ablation/week_plus_1/all_results_direct_week_ahead_missing_modality.json"
+    },
+    "week_plus_2": {
+      "results_dir": "/Users/lamiasalsabil/Documents/Hackathon/data/outputs/direct_week_ahead_missing_ablation/week_plus_2",
+      "json_results": "/Users/lamiasalsabil/Documents/Hackathon/data/outputs/direct_week_ahead_missing_ablation/week_plus_2/all_results_direct_week_ahead_missing_modality.json"
+    },
+    "week_plus_3": {
+      "results_dir": "/Users/lamiasalsabil/Documents/Hackathon/data/outputs/direct_week_ahead_missing_ablation/week_plus_3",
+      "json_results": "/Users/lamiasalsabil/Documents/Hackathon/data/outputs/direct_week_ahead_missing_ablation/week_plus_3/all_results_direct_week_ahead_missing_modality.json"
+    },
+    "week_plus_4": {
+      "results_dir": "/Users/lamiasalsabil/Documents/Hackathon/data/outputs/direct_week_ahead_missing_ablation/week_plus_4",
+      "json_results": "/Users/lamiasalsabil/Documents/Hackathon/data/outputs/direct_week_ahead_missing_ablation/week_plus_4/all_results_direct_week_ahead_missing_modality.json"
+    },
+    "week_plus_5": {
+      "results_dir": "/Users/lamiasalsabil/Documents/Hackathon/data/outputs/direct_week_ahead_missing_ablation/week_plus_5",
+      "json_results": "/Users/lamiasalsabil/Documents/Hackathon/data/outputs/direct_week_ahead_missing_ablation/week_plus_5/all_results_direct_week_ahead_missing_modality.json"
+    }
+  }
+}
