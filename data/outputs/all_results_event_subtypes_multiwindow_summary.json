@@ -1,0 +1,59 @@
+{
+  "summary": {
+    "window_weeks": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "window_labels": {
+      "1": "next_week",
+      "2": "next_2_weeks",
+      "3": "next_3_weeks",
+      "4": "next_4_weeks_month"
+    },
+    "targets": [
+      "y_next_battle_any",
+      "y_next_explosions_remote_any",
+      "y_next_violence_against_civilians_any",
+      "y_next_air_drone_any",
+      "y_next_strategic_developments_any"
+    ],
+    "base_train_script": "/Users/lamiasalsabil/Documents/Hackathon/14_train_export_event_subtypes.py",
+    "include_protests_riots": false
+  },
+  "horizons": {
+    "next_week": {
+      "forecast_window_weeks": 1,
+      "forecast_window_label": "next_week",
+      "results_dir": "/Users/lamiasalsabil/Documents/Hackathon/data/outputs/event_subtype_multiwindow_exports/next_week",
+      "master_input_csv": "/var/folders/p1/s5bgvlwx5hn8wr2h8nrk21l00000gn/T/subtype_multiwindow_targets_l34mnv64/master_subtypes_1w.csv",
+      "comparison_metrics_csv": "/Users/lamiasalsabil/Documents/Hackathon/data/outputs/event_subtype_multiwindow_exports/next_week/comparison_metrics_event_subtypes.csv",
+      "json_results": "/Users/lamiasalsabil/Documents/Hackathon/data/outputs/event_subtype_multiwindow_exports/next_week/all_results_event_subtypes.json"
+    },
+    "next_2_weeks": {
+      "forecast_window_weeks": 2,
+      "forecast_window_label": "next_2_weeks",
+      "results_dir": "/Users/lamiasalsabil/Documents/Hackathon/data/outputs/event_subtype_multiwindow_exports/next_2_weeks",
+      "master_input_csv": "/var/folders/p1/s5bgvlwx5hn8wr2h8nrk21l00000gn/T/subtype_multiwindow_targets_l34mnv64/master_subtypes_2w.csv",
+      "comparison_metrics_csv": "/Users/lamiasalsabil/Documents/Hackathon/data/outputs/event_subtype_multiwindow_exports/next_2_weeks/comparison_metrics_event_subtypes.csv",
+      "json_results": "/Users/lamiasalsabil/Documents/Hackathon/data/outputs/event_subtype_multiwindow_exports/next_2_weeks/all_results_event_subtypes.json"
+    },
+    "next_3_weeks": {
+      "forecast_window_weeks": 3,
+      "forecast_window_label": "next_3_weeks",
+      "results_dir": "/Users/lamiasalsabil/Documents/Hackathon/data/outputs/event_subtype_multiwindow_exports/next_3_weeks",
+      "master_input_csv": "/var/folders/p1/s5bgvlwx5hn8wr2h8nrk21l00000gn/T/subtype_multiwindow_targets_l34mnv64/master_subtypes_3w.csv",
+      "comparison_metrics_csv": "/Users/lamiasalsabil/Documents/Hackathon/data/outputs/event_subtype_multiwindow_exports/next_3_weeks/comparison_metrics_event_subtypes.csv",
+      "json_results": "/Users/lamiasalsabil/Documents/Hackathon/data/outputs/event_subtype_multiwindow_exports/next_3_weeks/all_results_event_subtypes.json"
+    },
+    "next_4_weeks_month": {
+      "forecast_window_weeks": 4,
+      "forecast_window_label": "next_4_weeks_month",
+      "results_dir": "/Users/lamiasalsabil/Documents/Hackathon/data/outputs/event_subtype_multiwindow_exports/next_4_weeks_month",
+      "master_input_csv": "/var/folders/p1/s5bgvlwx5hn8wr2h8nrk21l00000gn/T/subtype_multiwindow_targets_l34mnv64/master_subtypes_4w.csv",
+      "comparison_metrics_csv": "/Users/lamiasalsabil/Documents/Hackathon/data/outputs/event_subtype_multiwindow_exports/next_4_weeks_month/comparison_metrics_event_subtypes.csv",
+      "json_results": "/Users/lamiasalsabil/Documents/Hackathon/data/outputs/event_subtype_multiwindow_exports/next_4_weeks_month/all_results_event_subtypes.json"
+    }
+  }
+}
